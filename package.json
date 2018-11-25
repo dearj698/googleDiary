@@ -1,0 +1,22 @@
+{
+  "name": "googleDiary",
+  "version": "0.0.1",
+  "description": "",
+  "author": "jerry698698 <karen698698@gmail.com>",
+  "main": "functions/__main__.js",
+  "dependencies": {
+    "firebase": "^5.5.9",
+    "request": "^2.88.0",
+    "xhr": "^2.5.0"
+  },
+  "private": true,
+  "stdlib": {
+    "build": "faaslang",
+    "name": "jerry698698/googleDiary",
+    "timeout": 10000,
+    "personalize": {
+      "keys": [],
+      "user": []
+    }
+  }
+}
